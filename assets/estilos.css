@@ -1,0 +1,59 @@
+.cuerpo{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie {
+    margin-top: auto; 
+}
+
+.quadrate {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.rectangle {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.rectangle-article {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.container-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.091);
+    border-radius: 20px;
+}
+
+footer {
+    background: rgb(56, 55, 55);
+    color: white;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+
+.anio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-primary {
+    background-color: rgb(30, 0, 255) !important;
+}
